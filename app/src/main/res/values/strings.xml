@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BBMS</string>
+    <string name="register_request">If you have not register yet, Please register first by click on the register button</string>
+    <string name="contact_us">Pabna University of Science and Technology\n\nEmail: deloar.pust@gmail.com\n\nMobile: 01765436702\n\n</string>
+    <string name="about_us">Vision: Right blood component for right patient at right time in right donor</string>
+
+    <string-array name="BloodGroup">
+        <item>Select</item>
+        <item>AB+</item>
+        <item>A+</item>
+        <item>B+</item>
+        <item>AB-</item>
+        <item>A-</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+
+</resources>

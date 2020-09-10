@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mddeloarhossain.bloodbankmanagement">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/savelife"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/savelife"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DonorDetails" />
+        <activity android:name=".TheDonorDetails" />
+        <activity android:name=".BloodStock" />
+        <activity android:name=".AllDonorInformation" />
+        <activity android:name=".AdminManagePanel" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".DonorRegistration1" />
+        <activity android:name=".DonorSignIn" />
+        <activity android:name=".AdminRegistration" />
+        <activity android:name=".AdminSignIn" />
+        <activity android:name=".DonorRegistrationInfo" />
+        <activity android:name=".UserHome" />
+        <activity android:name=".EditDonorInfo" />
+        <activity android:name=".SeeTheDonorDetails" />
+        <activity android:name=".BloodStockInput" />
+        <activity android:name=".DonorHome" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".UserRequest" />
+        <activity android:name=".ShowUserRequest" />
+        <activity android:name=".ShowUserFeedback" />
+        <activity android:name=".BloodStockEdit" />
+        <activity android:name=".BloodStockWithoutEdit" />
+        <activity android:name=".AllDonorInfoUser" />
+        <activity android:name=".TheDonorDetailsUser" />
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".BloodStockBGIDonor" />
+        <activity android:name=".AllDonorPlace" />
+        <activity android:name=".AllDonorPlacesInfo" />
+        <activity android:name=".UserRequestSMS" />
+        <activity android:name=".TheDonorDetailsDonorProfile" />
+        <activity android:name=".UserDashboard" />
+        <activity android:name=".ContactUsUser"></activity>
+    </application>
+
+</manifest>

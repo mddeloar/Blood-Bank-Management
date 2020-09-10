@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context="com.example.mddeloarhossain.bloodbankmanagement.UserRequestSMS">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center|left"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Enter your information"
+                android:textAlignment="center"
+                android:textColor="#2259ff"
+                android:textSize="25dp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name:"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:textColor="#2259ff"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="City:"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:textColor="#2259ff"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location:"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:textColor="#2259ff"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blood-Group:"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:textColor="#2259ff"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blood need:"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:textColor="#2259ff"
+                    />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <EditText
+                    android:id="@+id/SMSRegistrationEditTextNameId"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:hint="your name(optional)"
+                    android:textColor="#1a0a0a"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    />
+                <EditText
+                    android:id="@+id/SMSRegistrationEditTextCityId"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:hint="your city"
+                    android:textColor="#1a0a0a"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    />
+                <EditText
+                    android:id="@+id/SMSRegistrationEditTextLocationId"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:hint="your loacation"
+                    android:textColor="#1a0a0a"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    />
+
+                <Spinner
+                    android:id="@+id/SMSRegistrationSpinnerBloodGroupId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                </Spinner>
+
+
+                <RadioGroup
+                    android:id="@+id/SMSRegistrationRadioGroupId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    android:layout_marginTop="6dp">
+                    <RadioButton
+                        android:id="@+id/TimeRadio24Id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="43dp"
+                        android:text="Within 24 hours"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic"
+                        android:textColor="#1a0a0a"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/TimeRadio12Id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="43dp"
+                        android:text="Within 12 hours"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic"
+                        android:textColor="#1a0a0a"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/TimeRadio8Id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="43dp"
+                        android:text="Within 8 hours"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic"
+                        android:textColor="#1a0a0a"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/TimeRadio4Id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="43dp"
+                        android:text="Within 4 hours"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic"
+                        android:textColor="#1a0a0a"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/TimeRadio2Id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="43dp"
+                        android:text="Within 2 hours"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic"
+                        android:textColor="#1a0a0a"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/RegistrationMaleRadioId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="43dp"
+                        android:text="Emergency"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic"
+                        android:textColor="#1a0a0a"
+                        />
+
+
+
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <android.support.v7.widget.CardView
+
+                android:id="@+id/SMSRegistrationSaveInfoCardViewId"
+
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:text="Send Message"
+                        android:textSize="18dp"
+                        />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
