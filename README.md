@@ -32,3 +32,44 @@ sent email to donor.
 And
 edit/delete the information
 Admin can also see the feedback and request sent by the user
+
+
+Donor
+
+If you are an old donor then you can log in your profile using name and password.
+If you are new then you can register as donor . 
+And you can see your profile and other information.
+Donor also can edit or delete his profile and can give feedback.
+
+User
+
+After entering into the app user can see - blood stock 
+- donor information  - can request for blood 
+- search the donor to blood group wise
+- can search the blood  location wise 
+- can give feedback .
+
+
+
+Introduction To Tools  & Technology Used 
+
+Android Studio
+Java Development Kit
+MySQL
+SQLite
+
+
+
+Application Of This Project
+
+This app will play an important role in saving life of human beings .This app will include all the features to provide a means of communication between blood seekers ,blood donor & blood banks.
+
+
+
+Future Work
+
+We want to add GPS so that users can locate different volunteer blood donors and blood banks in their locality through GPS and request for the blood in case of emergency.
+
+
+
+
